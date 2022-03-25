@@ -23,9 +23,11 @@ Its eliminate the Overfetching (Send more data than whats client really needs).
 
 ```javascript
   "scripts": {
-      "dev": "yarn nodemon --exec babel-node src/index.js"
+      "dev": "yarn nodemon --exec babel-node src/index.js -e js,gql"
     },
 ```
+
+`yarn add merge-graphql-schemas`
 
 
 
